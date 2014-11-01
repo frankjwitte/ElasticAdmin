@@ -1,0 +1,19 @@
+<div class="alert alert-success index-information" ng-repeat="(key, value) in indices">
+    <span class="glyphicon glyphicon-folder-close"></span> {{key}}
+
+
+    <div class="btn-group" style="float: right;">
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Close</a></li>
+            <li><a href="#" ng-click="deleteIndex(key)">Delete</a></li>
+        </ul>
+    </div>
+    <br /><span style="font-size:small">documents: {{indices[key].docs.max_doc | number}}</span>
+
+</div>
+
+
+

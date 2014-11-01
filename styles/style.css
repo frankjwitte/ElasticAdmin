@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body {
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: medium;
+}
+
+div.index-information {
+    float: left;
+    margin: 8px 16px 8px 0;
+    height: 100px;
+    width: 210px;
+}
